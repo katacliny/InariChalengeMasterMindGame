@@ -1,30 +1,31 @@
 
-# Project Title
+# Master Mind
 
-A brief description of what this project does and who it's for
+MasterMind is a logic board game from the 70’s in which you have to co-
+rrectly guess a random secret code in a determined number of guesses.
 
+This game can be played by two players, the code-maker and the co-
+de-breaker.
 
-## Authors
+• The code-maker creates the secret combination, composed by a se-
+quence of 4 colored pegs
 
-- [@katherinepeterson](https://www.github.com/octokatherine)
+• The code-breaker makes a series of guesses, each guess composed in
+the same way by 4 colores pegs. After each guess, the code-maker gives
 
-  
-## FAQ
-
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
-
+feedback to the code-breaker to see how close you got to the real se-
+cret code.
   
 ## Roadmap
 
-- Additional browser support
+- Add database
 
-- Add more integrations
+- Parameterize the code
+- Add container
+- Make it a web service
+- Make a global score rank
+- Allow two or more players
+- Allow diferent levels of complexity 
 
   
 ## Run Locally
@@ -32,7 +33,7 @@ Answer 2
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  https://github.com/katacliny/InariChalengeMasterMindGame.git
 ```
 
 Go to the project directory
@@ -44,19 +45,14 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  npm install
+  python -m pip install -r requirements.txt
 ```
-
-Start the server
-
-```bash
-  npm run start
-```
-
   
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![imagen](https://user-images.githubusercontent.com/34369026/137625851-8605755f-a47c-4e9f-a7f4-37074f47806b.png)
+![imagen](https://user-images.githubusercontent.com/34369026/137626020-a5428def-1dd4-4903-933f-733a72bbad56.png)
+
 
   
 ## Running Tests
@@ -64,7 +60,7 @@ Start the server
 To run tests, run the following command
 
 ```bash
-  npm run test
+  pytest
 ```
 
   
