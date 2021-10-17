@@ -26,6 +26,7 @@ cret code.
 - Make a global score rank
 - Allow two or more players
 - Allow diferent levels of complexity 
+- Add more screen resolutions support
 
   
 ## Run Locally
@@ -62,5 +63,7 @@ To run tests, run the following command
 ```bash
   pytest
 ```
+## Limitations
 
+This app is made to be executed especially on the terminal of the visual studio or on a high resolution monitor, preferably both.
   
