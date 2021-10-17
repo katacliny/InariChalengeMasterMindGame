@@ -48,6 +48,13 @@ Install dependencies
 ```bash
   python -m pip install -r requirements.txt
 ```
+
+Run app
+
+```bash
+  python game.py
+```
+
   
 ## Screenshots
 
