@@ -84,8 +84,11 @@ def validate_command(sequence: str):
 def game():
     system("clear")
     title()
+    global show_intro
     if show_intro:
+        show_intro = False
         intro()
+
     global last_message
     print(Fore.RED)
     print(last_message)
@@ -105,7 +108,7 @@ def game():
         last_message = get_pegs(sequence, secret)
 
     elif validate_help(sequence):
-        help_log()
+        help_log(Colors)
 
     elif validate_command(sequence):
         print("Done!")

@@ -35,11 +35,9 @@ def intro():
 
     print(Fore.YELLOW + text)
 
-    global show_intro
-    show_intro = False
 
 
-def help_log():
+def help_log(Colors):
     help: str = f"""
     
         MasterMind is a logic board game from the 70’s in which you have to co-
